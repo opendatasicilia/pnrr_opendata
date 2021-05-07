@@ -1,0 +1,61 @@
+header {
+  padding: 75px 0 5px!important;
+}
+
+section {
+  padding: 30px 0!important;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {color: #021b44!important; }
+li {color: #021b44!important;}
+
+.lead {color: #021b44!important;}
+
+/* heder e footer */
+.bg-dark { background-color: #021b44!important;}
+
+/* sfondo titolo */
+.bg-primary {background-color: #c4e6fa!important;} 
+
+/* collegamenti */
+a:link {color: #FF0000;  text-decoration:none!important; }
+
+a:hover {color: #ff0000;   text-decoration:underline!important; /* font-weight: bold!important;*/}
+
+a:visited {color: #FF0000; text-decoration:none!important; }
+
+/* icona social */
+.social-icons .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: #021b44de;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.3rem;
+  margin-right: 0.3rem;}
+
+/* filetto hr */
+hr  {border: 0;
+    height: 1px;
+    background: #ff9900!important;
+    background-image: linear-gradient(to right,  #eee, #021b44,  #eee)!important;
+	margin-top:20px;margin-bottom:20px;
+}
+
+.social-icons .social-icon:last-child {
+  margin-right: 0;}
+
+.social-icons .social-icon:hover {
+  background-color: #ff0000;}
+
+.dev-icons {font-size: 3rem;}
+
+/* font family in mobile */
+@media (min-width: 240px) and (max-width: 1023px) { body  { font-size: 0.75rem!important;}
+	
+/* footer */
+.pt-5, .py-5 {padding-top: 1rem!important;}
+.pb-5, .py-5 {padding-bottom: 1rem!important;}

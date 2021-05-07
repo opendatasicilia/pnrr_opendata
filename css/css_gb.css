@@ -1,0 +1,57 @@
+header {
+  padding: 75px 0 5px!important;
+}
+
+section {
+  padding: 30px 50px!important;
+}
+
+/* sfondo titolo */
+.bg-primary {background-color: #ff9900!important;}
+
+/* collegamenti */
+a:link {color: #FF9900;  text-decoration: none; }
+
+a:hover {color: #ff9900;   text-decoration:underline!important; /* font-weight: bold!important;*/}
+
+a:visited {color: #FF9900; text-decoration: none; }
+
+/* filetto hr */
+hr  {border: 0;
+    height: 1px;
+    background: #ff9900!important;
+    background-image: linear-gradient(to right,  #eee, #ff9900,  #eee)!important;
+	margin-top:20px;margin-bottom:20px;
+}
+
+/* icona social */
+.social-icons .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: #343a409e;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.3rem;
+  margin-right: 0.3rem;}
+
+.social-icons .social-icon:last-child {
+  margin-right: 0;}
+
+.social-icons .social-icon:hover {
+  background-color: #ff9900;}
+
+.dev-icons {font-size: 3rem;}
+
+/* prnn */
+
+.tprnn {   padding: 30px 30px!important;}
+
+/* font family in mobile */
+@media (min-width: 240px) and (max-width: 1023px) { body  { font-size: 0.75rem!important;}
+	
+/* footer */
+.pt-5, .py-5 {padding-top: 1rem!important;}
+.pb-5, .py-5 {padding-bottom: 1rem!important;}

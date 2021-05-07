@@ -1,0 +1,55 @@
+                    <div class="social-icons">
+                        <a class="social-icon" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="#"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+
+
+
+
+
+<!-- Blocco Social -->
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mx-auto"> 
+	<!-- <h2>Contatti:</h2> -->
+    <div class="row justify-content-center">
+        
+		  <!-- Social sito web -->
+         <div class="col-lg-2 ml-auto text-center">
+			<a href="http://opendatasicilia.it/" title="opendatasicilia.it" target="_blank" class="d-block" ><i class="fa fa-globe fa-2x mb-2 text-muted"></i></a>
+          <a href="http://opendatasicilia.it/" title="opendatasicilia.it" target="_blank" class="d-block" >Sito web</a>
+        </div>
+		 <!-- Social ML -->
+		 <div class="col-lg-1 mr-auto text-center"> <a href="https://groups.google.com/d/forum/opendatasicilia" title="Google mailing list" target="_blank" class="d-block"><i class="fa fa-envelope fa-2x mb-2 text-muted"></i></a> <a href="https://groups.google.com/d/forum/opendatasicilia" title="Google mailing list" target="_blank" class="d-block">M L</a> </div>
+		 <!-- Social twitter -->
+       <div class="col-lg-1 ml-auto text-center">
+		   <a href="https://twitter.com/opendatasicilia" title="Twitter" target="_blank" class="d-block" ><i class="fa fa-twitter fa-2x mb-2 text-muted"></i></a>
+          <a href="https://twitter.com/opendatasicilia" title="Twitter" target="_blank" class="d-block" >Twitter</a>
+        </div>
+		   <!-- Social facebook -->
+        <div class="col-lg-2 ml-auto text-center">
+		<a href="https://www.facebook.com/groups/opendatasicilia/" title="FaceBook" target="_blank" class="d-block" ><i class="fa fa-facebook fa-2x mb-2 text-muted"></i></a>
+          <a href="https://www.facebook.com/groups/opendatasicilia/" title="FaceBook" target="_blank" class="d-block" >FaceBook</a>
+        </div>
+		   <!-- Social telegram -->
+        <div class="col-lg-1 ml-auto text-center">
+		<a href="https://www.facebook.com/groups/opendatasicilia/" title="Gruppo Telegram" target="_blank" class="d-block" ><i class="fa fa-telegram fa-2x mb-2 text-muted"></i></a>
+          <a href="https://www.facebook.com/groups/opendatasicilia/" title="Gruppo Telegram" target="_blank" class="d-block" >Telegram</a>
+        </div>
+		   <!-- Social github -->
+        <div class="col-lg-2 ml-auto text-center">
+			<a href="https://github.com/opendatasicilia" title="GitHub" target="_blank" class="d-block" ><i class="fa fa-github fa-2x mb-2 text-muted"></i></a>
+            <a href="https://github.com/opendatasicilia" title="GitHub" target="_blank" class="d-block" >GitHub</a>
+        </div>
+		   <!-- Social data.world -->
+        <div class="col-lg-1 mr-auto text-center">
+		<a href="#" title="data.world - Coming Soon" target="_blank" class="d-block"><i class="fa fa-database fa-2x mb-2 text-muted"></i></a>
+         <a href="#" title="data.world - Coming Soon" target="_blank" class="d-block">Dati</a>
+        </div>   
+        </div>
+      </div>
+    </div></div>
+  </section>
