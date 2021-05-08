@@ -3,7 +3,7 @@ header {
 }
 
 section {
-  padding: 30px 50px!important;
+  padding: 5px 50px!important;
 }
 
 /* sfondo titolo */
@@ -44,10 +44,6 @@ hr  {border: 0;
   background-color: #ff9900;}
 
 .dev-icons {font-size: 3rem;}
-
-/* prnn */
-
-.tprnn {   padding: 30px 30px!important;}
 
 /* font family in mobile */
 @media (min-width: 240px) and (max-width: 1023px) { body  { font-size: 0.75rem!important;}
