@@ -6,4 +6,4 @@
 
 Rielaborazione del [catalogo pnrr](https://cirospat.github.io/pnrr_2021_opendata/) realizzato da [@cirospat](https://github.com/cirospat)
 
-![social](/img/pnrr_card.png)
+[![social](/img/pnrr_card.jpg)](https://opendatasicilia.github.io/pnrr_opendata/)
