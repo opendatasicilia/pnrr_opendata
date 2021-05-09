@@ -190,7 +190,63 @@
 	<!-- fine catalogo desktop -->	
 		
 	<!-- inizio catalogo mobile -->
-
+	<div class="no_desktop">
+			<div class="col-md-12 column">
+				<img src="https://img.shields.io/badge/Cerca le parole chiave sul PNRR-e%20ti%20fornisco%20risposte%20immediate-%23ff9900" title="Cerca le parole chiave sul PNRR e ti fornisco risposte immediate" /><br><br>
+				<!-- <img src="https://img.shields.io/badge/digita-e_ti_fornisco_risposte_immediate-red.svg" />-->		
+				</a><div ex:role="facet" ex:facetClass="TextSearch"></div>
+			</div> <br> 
+		<div class="row clearfix">
+			<div class="col-md-12 column">
+				<div ex:role="facet" 
+				ex:facetClass="Cloud"
+				ex:expression=".componenti" 
+				ex:facetLabel="Componenti"
+				ex:sortMode="count"></div>
+			</div>
+			<div class="col-md-8 column">
+				<div ex:role="facet" 
+				ex:expression=".ambiti_intervento" 
+				ex:facetLabel="Ambiti di intervento"
+				ex:missingLabel="Non specificato"
+				ex:sortMode="count"></div>
+			</div>
+			<div class="col-md-2 column">
+				<div ex:role="facet" 
+				ex:expression=".spesa" 
+				ex:facetLabel="Spesa in miliardi di €"
+				ex:missingLabel="altro"
+				ex:sortMode="count">
+				</div>
+			</div>
+		</div>
+		<div class="row clearfix">
+			<div class="col-md-12 column">
+	<div ex:role="viewPanel" style="padding: 0in;">
+	<div ex:role="exhibit-view" 
+	ex:viewClass="Exhibit.TabularView"  
+	ex:label="Table"  
+	ex:columns=".investimento_riforme,.spesa,.ambiti_intervento"  
+	ex:columnLabels="Investimenti e riforme, Spesa, Ambiti di intervento" 
+	ex:columnFormats="list,list,list"
+	ex:sortColumn="3"
+	ex:sortAscending="false"
+	ex:tableStyler="tableStyler"> 
+	<div ex:role="exhibit-lens">
+	<div class="table-responsive">
+	<table class="table">
+	<tr>
+	<!-- <td><strong><span ex:content=".area"></strong></td> -->
+	<td><a ex:href-content=".link2" ex:onclick-subcontent="trackOutboundLink('{{.link2}}'); return false;" target="_parent"><strong><span ex:content=".investimento_riforme"></strong></span></a></td> 
+	<!--<td><span ex:content=".investimento_riforme"></td> -->
+	<td><span class="btn btn-warning btn-xs" ex:content=".spesa"></span></td>
+	<td><span ex:content=".ambiti_intervento"></span></td>
+	<!-- <td><span  ex:content=".componenti"></span></td>
+	<td><span ex:content=".missioni"></span></td>
+	 <td><span ex:content=".link_scheda"></span></td> -->
+	</tr>
+	</table> 
+	</div>
 	<!-- fine catalogo mobile -->	
 	</div>
 	</div></div></div><br> <hr>
