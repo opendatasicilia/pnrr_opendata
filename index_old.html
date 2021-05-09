@@ -108,9 +108,6 @@
 	<li class="nav-item">
           <a class="nav-link js-scroll-trigger" title="Contatti/Social" href="#contact">Contatti</a> 
           </li>
-		  		  	<li class="nav-item">
-          <a class="nav-link js-scroll-trigger" title="Versione desktop" href="index_desk.html">Desktop</a> 
-          </li>
         </ul>
       </div>
     </div>
@@ -131,9 +128,12 @@
           <p class="lead">Consulta le informazioni sulle risorse del PNRR. La fonte delle informazioni è il <a href="https://www.governo.it/sites/governo.it/files/PNRR_0.pdf" title="PNRR 2021 pdf #nextgenerationitalia" target="_blank">documento in formato PDF del Governo italiano</a> pubblicato online ad aprile 2021.<br>
             <strong>Nota</strong> Questo catalogo prende in considerazione soltanto gli "<strong>investimenti</strong>" e le "<strong>riforme</strong>" che prevedono uno stanziamento economico. <strong>Le riforme per le quali non è prevista una spesa nel PNRR non compaiono in questo catalogo</strong>. </p>
 			  <hr>
- 
-			 <img src="https://img.shields.io/badge/Cerca-le parole chiave sul PNRR-%23ff9900" title="Cerca le parole chiave sul PNRR e ti fornisco risposte immediate" /> 
-			<!-- <img src="https://img.shields.io/badge/Cerca le parole chiave sul PNRR-e%20ti%20fornisco%20risposte%20immediate-%23ff9900" title="Cerca le parole chiave sul PNRR e ti fornisco risposte immediate" /> --><br><br>
+<script> if (screen && screen.width < 730) { document.write('<img src="https://img.shields.io/badge/Cerca-le parole chiave sul PNRR-%23ff9900" title="Cerca le parole chiave sul PNRR e ti fornisco risposte immediate" /> '); } </script> 
+			  
+<script> if (screen && screen.width > 731) { document.write('<img src="https://img.shields.io/badge/Cerca le parole chiave sul PNRR-e%20ti%20fornisco%20risposte%20immediate-%23ff9900" title="Cerca le parole chiave sul PNRR e ti fornisco risposte immediate" />'); } </script> 
+			  
+			<!-- <img src="https://img.shields.io/badge/Cerca-le parole chiave sul PNRR-%23ff9900" title="Cerca le parole chiave sul PNRR e ti fornisco risposte immediate" /> 
+			 <img src="https://img.shields.io/badge/Cerca le parole chiave sul PNRR-e%20ti%20fornisco%20risposte%20immediate-%23ff9900" title="Cerca le parole chiave sul PNRR e ti fornisco risposte immediate" /> --><br><br>
 			<div ex:role="facet" ex:facetClass="TextSearch"></div>
 			</div> <br> 
 	<!-- blocco ricerca catalogo   -->
@@ -168,10 +168,10 @@
 	<div ex:role="exhibit-view" 
 	ex:viewClass="Exhibit.TabularView"  
 	ex:label="Table"  
-	ex:columns=".investimento_riforme,.spesa,.ambiti_intervento"  
-	ex:columnLabels="Investimenti e riforme, Spesa, Ambiti di intervento" 
-	ex:columnFormats="list,list,list"
-	ex:sortColumn="3"
+	ex:columns=".investimento_riforme,.spesa,.ambiti_intervento,.componenti,.missioni"  
+	ex:columnLabels="Investimenti e riforme, Spesa, Ambiti di intervento, Componenti, Missioni" 
+	ex:columnFormats="list,list,list,list,list"
+	ex:sortColumn="5"
 	ex:sortAscending="false"
 	ex:tableStyler="tableStyler"> 
 	<div ex:role="exhibit-lens">
@@ -181,6 +181,8 @@
 	<td><a ex:href-content=".link2" ex:onclick-subcontent="trackOutboundLink('{{.link2}}'); return false;" target="_parent"><strong><span ex:content=".investimento_riforme"></strong></span></a></td> 
 	<td><span class="btn btn-warning btn-xs" ex:content=".spesa"></span></td>
 	<td><span ex:content=".ambiti_intervento"></span></td>
+	<td><span  ex:content=".componenti"></span></td>
+	<td><span ex:content=".missioni"></span></td>
 	</tr>
 	</table> 
 	</div>
