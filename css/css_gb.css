@@ -53,6 +53,6 @@ hr  {border: 0;
 .pb-5, .py-5 {padding-bottom: 1rem!important;}
 
 /* gb no mobile */
-@media (min-width: 240px) and (max-width: 1023px) {.mobile {display:none!important; }}
+@media (min-width: 240px) and (max-width: 1023px) {.no_mobile {display:none!important; }}
 	
-@media (min-width: 1024px) and (max-width: 6000px) {.desktop {display:none!important; }}	
+@media (min-width: 1024px) and (max-width: 6000px) {.no_desktop {display:none!important; }}	
