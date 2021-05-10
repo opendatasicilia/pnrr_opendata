@@ -34,7 +34,7 @@
      /*border:1px solid #ccc;*/ 
     border:1px solid #fff;
 }
-@media (min-width: 320px) and (max-width: 1023px) {#backTop.red {background-size: 14px; right: 25px!important;}}
+@media (min-width: 320px) and (max-width: 1023px) {#backTop.red {background-size: 14px; right: 5px!important;}}
 
 #backTop.green{
      background:url(img/top.png) no-repeat center center rgba(81,217,187,0.9); 
