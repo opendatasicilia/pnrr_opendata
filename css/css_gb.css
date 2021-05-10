@@ -1,6 +1,6 @@
 /* gb no mobile */
 @media (min-width: 730px) {.no_desk { display:none!important; visibility:hidden!important;}}	
-@media (min-width: 240px) and (max-width: 730px) {.no_mobile {display:none!important;  visibility:hidden!important;}}
+@media (min-width: 240px) and (max-width: 730px) {.no_mobile {display:none!important; visibility:hidden!important;}}
 /* @media (min-width: 240px) and (max-width: 730px) {.mobile { visibility:visible!important;}}	*/
 
 header {
