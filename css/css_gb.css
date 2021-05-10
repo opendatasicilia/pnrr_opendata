@@ -51,7 +51,7 @@ hr  {border: 0;
 .dev-icons {font-size: 3rem;}
 
 /* font family in mobile */
-@media (min-width: 240px) and (max-width: 1023px) { body  { font-size: 0.65rem!important;}
+@media (min-width: 240px) and (max-width: 1023px) { body  { font-size: 0.75rem!important;}
 
 /* bottone in mobile */
 @media (min-width: 240px) and (max-width: 1023px) { .btn {    font-size: 0.55rem!important;}}
