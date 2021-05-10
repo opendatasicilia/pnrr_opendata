@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteRule ^index_desk.html/?$ /index.html/
-RewriteRule ^index_mobile.html/?$ /index.html/
