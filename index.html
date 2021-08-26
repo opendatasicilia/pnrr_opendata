@@ -60,10 +60,10 @@
   gtag('config', 'UA-87653723-4');
 </script>
  <!-- exhibit catalogo --> 
-    <link rel="exhibit/data" 
-    type="application/jsonp"
-    href="https://spreadsheets.google.com/feeds/list/11jh1FehtL4SiZzr4tV_RUZi1oOuMxE3H0Qh86o5braA/od6/public/basic?alt=json-in-script"
-        ex:converter="googleSpreadsheets" />
+<link rel="exhibit/data" 
+    type="text/csv"
+    href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTWPwpNW1sw6G5vyJqTER2Wz3gzo-Hbsbl-LrQqkG6k64vDevZkpA4eyg-J3KpdMM3pXCvctDx0y9oM/pub?output=csv"     />
+
  <script src="js/dist/exhibit-api.js?locale=it"></script>
 
     <script type="text/javascript">
@@ -176,7 +176,7 @@
 	<div class="table-responsive ">
 	<table class="table">
 	<tr>
-	<td><a ex:href-content=".link2" ex:onclick-subcontent="trackOutboundLink('{{.link2}}'); return false;" target="_parent"><strong><span ex:content=".investimento_riforme"></strong></span></a></td> 
+	<td><a ex:href-content=".link2" ex:onclick-subcontent="trackOutboundLink('.link2'); return false;" target="_parent"><strong><span ex:content=".investimento_riforme"></strong></span></a></td> 
 	<td><span class="btn btn-warning btn-xs" ex:content=".spesa"></span></td>
 	<td><span ex:content=".ambiti_intervento"></span></td>
 	<td><span  ex:content=".componenti"></span></td>
@@ -200,7 +200,7 @@
 	<div class="table-responsive ">
 	<table class="table">
 	<tr>
-	<td><a ex:href-content=".link2" ex:onclick-subcontent="trackOutboundLink('{{.link2}}'); return false;" target="_parent"><strong><span ex:content=".investimento_riforme"></strong></span></a></td> 
+	<td><a ex:href-content=".link2" ex:onclick-subcontent="trackOutboundLink(.link2'); return false;" target="_parent"><strong><span ex:content=".investimento_riforme"></strong></span></a></td> 
 	<td><span class="btn btn-warning btn-xs" ex:content=".spesa"></span></td>
 	<td><span ex:content=".ambiti_intervento"></span></td>
 	</tr>
